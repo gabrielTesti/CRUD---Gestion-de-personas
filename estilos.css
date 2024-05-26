@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(224, 219, 219);
+}
+.contenedor{
+    width: 100%;
+    height: calc(180vh - 100px);
+    display: flex;
+    justify-content: center;
+
+}
+.div-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.div-formulario{
+width: 30%;
+height: 250px;
+margin: 15px 15px;
+background-color: rgb(135, 132 ,132);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+box-shadow: 10px 10px rgba(0,0,0,0.3);
+}
+.div-formulario h2{
+margin-top: 10px;
+font-weight: 300;
+font-size: 2em;
+color:whitesmoke;
+
+}
+
+
+.div-listado{
+    display: flex;
+    width: 55%;
+    height: calc(100%-50px);
+    margin: 15px 15px;
+    background-color: rgb(141, 136, 136);
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+.div-empleados{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0 30px;
+}
+
+.div-empleados p{
+    margin: 10px 0;
+    font-size: 1em;
+    color: #ddd
+}
+
+.div-formulario button{
+    width: 60%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+hr{
+    height: 1px;
+    color: black;
+}
